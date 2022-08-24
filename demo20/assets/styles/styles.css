@@ -436,3 +436,97 @@ main{
     line-height: 18px;
     color: #B5B5C3;
 }
+
+.widget-3 .card{
+    padding: 30px;
+}
+
+.widget-3 .widget-title p{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 26px;
+    color: #464E5F;
+}
+
+.widget-3 .widget-wrapper{
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.widget-3 .items{
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.widget-3 .item-logo{
+    background: #F3F6F9;
+    border-radius: 6px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.widget-3 .item-logo img{
+    width: 28px;
+    height: 28px;
+}
+
+.widget-3 .item-title{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #464E5F;
+}
+
+.widget-3 .item-text{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #B5B5C3;
+}
+
+.widget-3 .item-content{
+    display: flex;
+    align-items: center;
+}
+
+.widget-3 .item-number{
+    padding: 5px;
+    background: #F3F6F9;
+    border-radius: 6px;
+    height: fit-content;
+    margin: auto;
+    margin-right: 0 !important;
+}
+
+.widget-3 .item-number p{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #80808F;
+}
+
+.widget-3 .widget-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.widget-3 .widget-icon:hover{
+    cursor: pointer;
+}
+
+.widget-3 .widget-icon img{
+    transition: 0.2s all ease-in-out;
+}
+
+.widget-3 .widget-icon:hover img{
+    transform: rotateZ(180deg);
+}
+
+.widget-3 .widget-items{
+    margin-top: 25px;
+}
