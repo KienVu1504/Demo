@@ -331,3 +331,108 @@ main{
 .widget-1 .card-carts .row:first-child{
     margin-bottom: 20px;
 }
+
+.widget-2 .card-chart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+}
+
+.widget-2 .card-chart .chart-progress{
+    position: relative;
+    float:left;
+    text-align: center;
+}
+
+.widget-2 .card-chart .barOverflow{
+    position: relative;
+    overflow: hidden;
+    width: 203px; 
+    height: 101px;
+    margin-bottom: -70px;
+}
+
+.widget-2 .card-chart .bar{
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 203px; 
+    height: 203px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 12px solid #F64E60;
+    border-bottom-color: #FFE2E5;
+    border-right-color: #FFE2E5;
+}
+
+.widget-2 .card{
+    padding: 23px 30px;
+    position: relative;
+}
+
+.widget-2 .card-head .card-title{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 26px;
+    color: #464E5F;
+}
+
+.widget-2 .card-head .card-subtitle{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 23px;
+    color: #80808F;
+}
+
+.widget-2 .card-chart .chart-progress-info-number{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #464E5F;    
+}
+
+.widget-2 .card-chart .chart-progress-info-subtitle{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B5B5C3;
+}
+
+.widget-2 .card .card-body{
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+}
+
+.widget-2 .card-body-item{
+    padding-top: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.widget-2 .card-body-item .card-body-item-logo{
+    background: #F3F6F9;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.widget-2 .card-body-item-content .card-body-item-title{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #464E5F;
+}
+
+.widget-2 .card-body-item-content .card-body-item-description{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B5B5C3;
+}
