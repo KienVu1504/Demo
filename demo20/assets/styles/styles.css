@@ -530,3 +530,56 @@ main{
 .widget-3 .widget-items{
     margin-top: 25px;
 }
+
+.main-container .section-2{
+    margin-top: 40px;
+}
+
+.main-container .section-2 .card {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(56, 71, 109, 0.03);
+    border-radius: 12px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-2 .card{
+    position: relative;
+}
+
+.section-2 .card-bg{
+    position: absolute;
+    right: 0;
+}
+
+.section-2 p{
+    position: absolute;
+    z-index: 1;
+}
+
+.section-2 .card-top-title{
+    top: 24px;
+    left: 29px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B5B5C3;
+}
+
+.section-2 .card-middle-title{
+    left: 29px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #3699FF;    
+}
+
+.section-2 .card-bottom-title{
+    bottom: 24px;
+    left: 29px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 26px;
+    color: #464E5F;   
+}
