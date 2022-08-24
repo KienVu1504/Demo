@@ -209,3 +209,125 @@ header{
 .menu .menu-item:hover img{
     transform: rotateZ(180deg);
 }
+
+main{
+    background: #D5D9E2;
+}
+
+.main-container{
+    padding: 40px 0;
+}
+
+.main-container .section-1:nth-child(2){
+    padding: 0 40px;
+}
+
+.main-container .card{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(56, 71, 109, 0.03);
+    border-radius: 12px;
+    height: 473px;
+}
+
+.widget-1 .card-top{
+    background: #3699FF;
+    border-radius: 12px;
+    height: 242px;
+    padding: 30px;
+    position: relative;
+}
+
+.widget-1 .card-top-img-1{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;    
+}
+
+.widget-1 .card-top-img-2{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 75px;
+}
+
+.widget-1 .card-top-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.widget-1 .card-top-btn{
+    display: flex;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 6px;
+    padding: 6px 14px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.widget-1 .card-top .card-title{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.widget-1 .card-top-btn p{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.widget-1 .card-top-btn img{
+    margin-left: 14px;
+}
+
+.widget-1 .card-top-btn-wrapper{
+    margin-left: auto;
+}
+
+.widget-1 .card-top-btn:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.widget-1 .card{
+    position: relative;
+}
+
+.widget-1 .card-carts{
+    position: absolute;
+    width: 100%;
+    padding: 30px;
+    bottom: 0;
+}
+
+.widget-1 .card-carts .row .cart-wrapper:first-child{
+    padding-right: 20px;
+}
+
+.widget-1 .card-carts .cart{
+    background: #F3F6F9;
+    box-shadow: 0px 0px 20px rgba(56, 71, 109, 0.06);
+    border-radius: 12px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.widget-1 .card-carts .cart p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #80808F;
+}
+
+.widget-1 .card-carts .row:first-child{
+    margin-bottom: 20px;
+}
