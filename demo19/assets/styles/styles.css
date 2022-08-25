@@ -223,7 +223,7 @@ main{
     padding: 40px;
 }
 
-.widget-1{
+.widget-progress{
     padding-right: 50px !important;
     height: 500px;
 }
@@ -235,17 +235,17 @@ main{
     height: 100%;
 }
 
-.widget-1 .widget-head, .widget-6 .widget-head{
+.widget-progress .widget-head, .widget-trends .widget-head{
     padding: 23px 30px;
 }
 
-.widget-1 .widget-icon, .widget-6 .widget-icon{
+.widget-progress .widget-icon, .widget-trends .widget-icon{
     display: flex;
     justify-content: end;
     align-items: center;
 }
 
-.widget-1 .widget-title p{
+.widget-progress .widget-title p{
     font-weight: 600;
     font-size: 17px;
     line-height: 26px;
@@ -300,35 +300,35 @@ main{
     color: #464E5F;
 }
 
-.widget-2{
+.widget-customer{
     background: #FFFFFF;
     border-radius: 12px;
     position: relative;
 }
 
-.widget-2 .widget-head-wrapper{
+.widget-customer .widget-head-wrapper{
     padding: 30px 30px 0 30px;
 }
 
-.widget-2 .widget-head-wrapper img{
+.widget-customer .widget-head-wrapper img{
     margin-bottom: 10px;
 }
 
-.widget-2 .widgets-number{
+.widget-customer .widgets-number{
     font-weight: 700;
     font-size: 22px;
     line-height: 33px;
     color: #464E5F;
 }
 
-.widget-2 .widgets-title{
+.widget-customer .widgets-title{
     font-weight: 500;
     font-size: 13px;
     line-height: 20px;
     color: #B5B5C3;
 }
 
-.widget-2 .vector{
+.widget-customer .vector{
     width: 100%;
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px;
@@ -336,13 +336,13 @@ main{
     bottom: 0;
 }
 
-.widget-3{
+.widget-reports{
     padding-left: 30px !important;
     height: 235px;
     position: relative;
 }
 
-.widget-3 .widget-wrapper{
+.widget-reports .widget-wrapper{
     background: #8950FC;
     border-radius: 12px;
     padding: 30px 40px;
@@ -360,7 +360,7 @@ main{
     z-index: 1;
 }
 
-.widget-3 .widget-bg{
+.widget-reports .widget-bg{
     width: 100%;
     height: 100%;
     position: absolute;
@@ -368,27 +368,27 @@ main{
     top: 0;
 }
 
-.widget-3 .widget-bg img{
+.widget-reports .widget-bg img{
     border-radius: 12px;
     position: absolute;
     right: 0;
 }
 
-.widget-3 .widget-title-group .widgets-title{
+.widget-reports .widget-title-group .widgets-title{
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
     color: #FFFFFF;
 }
 
-.widget-3 .widget-title-group .widgets-description{
+.widget-reports .widget-title-group .widgets-description{
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
     color: #B5B5C3;
 }
 
-.widget-3 .widget-btn-group p{
+.widget-reports .widget-btn-group p{
     font-weight: 500;
     font-size: 13px;
     line-height: 20px;
@@ -398,15 +398,15 @@ main{
     padding-top: 2px;
 }
 
-.widget-3 .widget-btn-group img{
+.widget-reports .widget-btn-group img{
     transition: 0.2s all ease-in-out;
 }
 
-.widget-3 .widget-btn-group:hover{
+.widget-reports .widget-btn-group:hover{
     cursor: pointer;
 }
 
-.widget-3 .widget-btn-group:hover img{
+.widget-reports .widget-btn-group:hover img{
     transform: translateX(10px);
 }
 
@@ -414,38 +414,38 @@ main{
     margin-top: 30px !important;
 }
 
-.widget-4{
+.widget-crm{
     height: 235px;
     background: #FFFFFF;
     border-radius: 12px;
     position: relative;
 }
 
-.widget-4 .widget-head-wrapper{
+.widget-crm .widget-head-wrapper{
     padding: 20px 30px;
 }
 
-.widget-4 img{
+.widget-crm img{
     position: absolute;
     bottom: 0;
     width: 100%;
 }
 
-.widget-4 .widgets-title{
+.widget-crm .widgets-title{
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
     color: #464E5F;
 }
 
-.widget-4 .widgets-description{
+.widget-crm .widgets-description{
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
     color: #B5B5C3;
 }
 
-.widget-4 .widgets-number{
+.widget-crm .widgets-number{
     font-weight: 700;
     font-size: 26px;
     line-height: 39px;
@@ -453,59 +453,59 @@ main{
     color: #8950FC;
 }
 
-.widget-4 .widget-head-wrapper .right-position{
+.widget-crm .widget-head-wrapper .right-position{
     display: flex;
     align-items: center;
     justify-content: end;    
 }
 
-.widget-5{
+.widget-weekly{
     padding-left: 30px !important;
 }
 
-.widget-5 .widget-head-wrapper{
+.widget-weekly .widget-head-wrapper{
     height: 235px;
     background-image: url(../images/12\ 1.png);
     border-radius: 12px;
     padding: 25px 30px;
 }
 
-.widget-5 .widget-title{
+.widget-weekly .widget-title{
     font-weight: 600;
     font-size: 17px;
     line-height: 26px;
     color: #464E5F;    
 }
 
-.widget-5 .widget-description{
+.widget-weekly .widget-description{
     font-weight: 500;
     font-size: 14px;
     line-height: 23px;
     color: #80808F;
 }
 
-.widget-6{
+.widget-trends{
     padding-right: 50px !important;
 }
 
-.widget-6 .widget-title p{
+.widget-trends .widget-title p{
     font-weight: 600;
     font-size: 17px;
     line-height: 26px;
     color: #464E5F;
 }
 
-.widget-6 .widget-wrapper{
+.widget-trends .widget-wrapper{
     background: #FFFFFF;
     border-radius: 12px;
 }
 
-.widget-6 .items{
+.widget-trends .items{
     display: flex;
     padding: 0 30px 30px 30px;
 }
 
-.widget-6 .item-logo{
+.widget-trends .item-logo{
     background: #F3F6F9;
     border-radius: 6px;
     width: 50px;
@@ -516,31 +516,31 @@ main{
     margin-right: 30px;
 }
 
-.widget-6 .item-logo img{
+.widget-trends .item-logo img{
     width: 28px;
     height: 28px;
 }
 
-.widget-6 .item-title{
+.widget-trends .item-title{
     font-weight: 600;
     font-size: 14px;
     line-height: 21px;
     color: #464E5F;
 }
 
-.widget-6 .item-text{
+.widget-trends .item-text{
     font-weight: 500;
     font-size: 13px;
     line-height: 20px;
     color: #B5B5C3;
 }
 
-.widget-6 .item-content{
+.widget-trends .item-content{
     display: flex;
     align-items: center;
 }
 
-.widget-6 .item-number{
+.widget-trends .item-number{
     padding: 5px;
     background: #F3F6F9;
     border-radius: 6px;
@@ -549,24 +549,24 @@ main{
     margin-right: 0 !important;
 }
 
-.widget-6 .item-number p{
+.widget-trends .item-number p{
     font-weight: 600;
     font-size: 13px;
     line-height: 20px;
     color: #80808F;
 }
 
-.widget-7{
+.widget-arrival{
     padding: 25px 30px !important;
     background: #FFFFFF;
     border-radius: 12px;
 }
 
-.widget-7 .widget-head{
+.widget-arrival .widget-head{
     margin-bottom: 30px;
 }
 
-.widget-7 .widget-head .widget-title{
+.widget-arrival .widget-head .widget-title{
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
@@ -574,14 +574,14 @@ main{
     margin-bottom: 7px !important;
 }
 
-.widget-7 .widget-head .widget-subtitle{
+.widget-arrival .widget-head .widget-subtitle{
     font-weight: 500;
     font-size: 12px;
     line-height: 21px;
     color: #B5B5C3;
 }
 
-.widget-7 .widget-btn{
+.widget-arrival .widget-btn{
     background: #1BC5BD;
     border-radius: 6px;
     padding: 10px 20px;
@@ -591,7 +591,7 @@ main{
     transition: all 0.2s ease-in-out;
 }
 
-.widget-7 .widget-btn p{
+.widget-arrival .widget-btn p{
     font-weight: 600;
     font-size: 12px;
     line-height: 18px;
@@ -599,18 +599,18 @@ main{
     margin-left: 15px !important;
 }
 
-.widget-7 .widget-btn-wrapper{
+.widget-arrival .widget-btn-wrapper{
     display: flex;
     justify-content: end;
     align-items: center;
 }
 
-.widget-7 .widget-btn:hover{
+.widget-arrival .widget-btn:hover{
     cursor: pointer;
     transform: scale(1.1);
 }
 
-.widget-7 .table input[type='checkbox']{
+.widget-arrival .table input[type='checkbox']{
     background-color: #F3F6F9;
     border-radius: 6px;
     width: 25px;
@@ -622,11 +622,11 @@ main{
     cursor: pointer;
 }
 
-.widget-7 .table input[type='checkbox']:checked{
+.widget-arrival .table input[type='checkbox']:checked{
     background-color: #1BC5BD;    
 }
 
-.widget-7 .table th{
+.widget-arrival .table th{
     font-weight: 600;
     font-size: 12px;
     line-height: 18px;
@@ -634,7 +634,7 @@ main{
     color: #B5B5C3;    
 }
 
-.widget-7 .table .author-img{
+.widget-arrival .table .author-img{
     background: #F3F6F9;
     border-radius: 6px;
     width: 50px;
@@ -645,12 +645,12 @@ main{
     margin-right: 15px;
 }
 
-.widget-7 .table .table-author{
+.widget-arrival .table .table-author{
     display: flex;
     align-items: center;
 }
 
-.widget-7 .table .author-name{
+.widget-arrival .table .author-name{
     font-weight: 600;
     font-size: 14px;
     line-height: 21px;
@@ -658,32 +658,32 @@ main{
     margin-bottom: 5px !important;
 }
 
-.widget-7 .table .author-skills{
+.widget-arrival .table .author-skills{
     font-weight: 500;
     font-size: 13px;
     line-height: 20px;
     color: #B5B5C3;    
 }
 
-.widget-7 .table .company-name{
+.widget-arrival .table .company-name{
     font-weight: 600;
     font-size: 14px;
     line-height: 21px;
     color: #464E5F;
 }
 
-.widget-7 .table .company-job{
+.widget-arrival .table .company-job{
     font-weight: 500;
     font-size: 13px;
     line-height: 20px;
     color: #B5B5C3;
 }
 
-.widget-7 .table td{
+.widget-arrival .table td{
     vertical-align: middle;
 }
 
-.widget-7 .table .table-progress p {
+.widget-arrival .table .table-progress p {
     font-weight: 600;
     font-size: 12px;
     line-height: 18px;
@@ -691,17 +691,17 @@ main{
     margin-bottom: 5px !important;
 }
 
-.widget-7 .table .progress{
+.widget-arrival .table .progress{
     height: 5px;
 }
 
-.widget-7 .table .table-actions-wrapper{
+.widget-arrival .table .table-actions-wrapper{
     display: flex;
     align-items: center;
     justify-content: end;
 }
 
-.widget-7 .table .table-actions-wrapper .action{
+.widget-arrival .table .table-actions-wrapper .action{
     background: #F3F6F9;
     border-radius: 6px;
     width: 32px;
@@ -713,12 +713,12 @@ main{
     transition: all 0.2s ease-in-out;
 }
 
-.widget-7 .table .table-actions-wrapper .action:hover{
+.widget-arrival .table .table-actions-wrapper .action:hover{
     cursor: pointer;
     background: #dfdfdf;
     transform: scale(1.2);   
 }
 
-.widget-7 .table .bg-purple{
+.widget-arrival .table .bg-purple{
     background-color: #8950FC;;
 }
