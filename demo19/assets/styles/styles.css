@@ -616,7 +616,6 @@ main{
     width: 25px;
     height: 25px;
     vertical-align: middle;
-    outline: none;
     appearance: none;
     -webkit-appearance: none;
     cursor: pointer;
@@ -624,6 +623,10 @@ main{
 
 .widget-arrival .table input[type='checkbox']:checked{
     background-color: #1BC5BD;    
+}
+
+.widget-arrival .table tbody tr:last-child td{
+    border-bottom: none;
 }
 
 .widget-arrival .table th{
