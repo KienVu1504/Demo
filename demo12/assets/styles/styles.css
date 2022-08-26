@@ -105,7 +105,13 @@ p{
     border-radius: 20px 0px 0px 20px;
 }
 
+.side-menu-wrapper{
+    position: relative;
+    height: -webkit-fill-available;
+}
+
 .search{
+    position: absolute;
     background: #F1416C;
     border-radius: 80px;
     width: 46px;
@@ -113,7 +119,8 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 40px 47px 0 47px;
+    top: 40px;
+    left: 47px;
     transition: 0.2s all ease-in-out;
 }
 
@@ -123,11 +130,20 @@ p{
 }
 
 .vertical-menu{
-    margin: 200px 38px 0 38px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    height: max-content;
+    justify-content: center;
 }
 
 .vertical-menu ul{
     padding: 0;
+    height: max-content;
 }
 
 .vertical-menu .actived{
@@ -163,7 +179,9 @@ p{
 }
 
 .setting{
-    margin: 173px 47px 40px 47px;
+    position: absolute;
+    bottom: 40px;
+    left: 47px;
     width: 46px;
     height: 46px;
     display: flex;
