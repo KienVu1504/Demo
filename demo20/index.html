@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,20 @@
     <title>Demo20</title>
 
     <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
-	<link rel="stylesheet" href="assets/styles/styles.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
+
 <body>
     <header>
         <div class="header-wrapper container">
-            <div class="col-md-1 header-logo">
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 header-logo">
                 <img src="assets/images/Logo-11-1.png" alt="">
             </div>
-    
-            <div class="col-md-7 header-tabs">
+
+            <div class="col-xl-7 col-lg-10 col-md-10 header-tabs">
                 <ul class="header-tabs-wrapper">
                     <li class="header-tab actived">
                         <p>Crud Home</p>
@@ -40,22 +44,22 @@
                     </li>
                 </ul>
             </div>
-    
-            <div class="col-md-4 header-right">
+
+            <div class="col-xl-4 col-lg-1 col-md-1 col-sm-11 col-11 header-right">
                 <div class="header-right-icon-wrapper">
                     <ul class="header-right-icon-wrapper">
                         <li class="header-right-icon">
                             <img src="assets/images/Cart3.png" alt="">
                         </li>
-    
+
                         <li class="header-right-icon">
                             <img src="assets/images/Layout-4-blocks.png" alt="">
                         </li>
-    
+
                         <li class="header-right-icon">
                             <img src="assets/images/Equalizer.png" alt="">
                         </li>
-    
+
                         <li class="header-right-icon">
                             <img src="assets/images/Group-chat.png" alt="">
                         </li>
@@ -72,6 +76,66 @@
                                 <p>S</p>
                             </div>
                         </div>
+                    </div>
+                </div>
+
+                <div class="header-btn-mobile" onclick="openNav()">
+                    <i class="far fa-bars"></i>
+                </div>
+
+                <div class="side-nav" id="sideNav">
+                    <i class="far fa-times closebtn" onclick="closeNav()"></i>
+
+                    <div class="header-right-user-info">
+                        <div class="header-right-user-info-wrapper">
+                            <div class="header-right-user-title">
+                                <p class="user-name">Sean</p>
+                                <p class="user-description">UX Designer</p>
+                            </div>
+
+                            <div class="header-right-user-avt">
+                                <p>S</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="header-right-icon-wrapper">
+                        <ul>
+                            <li class="header-right-icon">
+                                <img src="assets/images/Cart3.png" alt="">
+                            </li>
+
+                            <li class="header-right-icon">
+                                <img src="assets/images/Layout-4-blocks.png" alt="">
+                            </li>
+
+                            <li class="header-right-icon">
+                                <img src="assets/images/Equalizer.png" alt="">
+                            </li>
+
+                            <li class="header-right-icon">
+                                <img src="assets/images/Group-chat.png" alt="">
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="menu-tabs-mobile">
+                        <button class="dropdown-btn">
+                            Crud Home
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+
+                        <div class="dropdown-container">
+                            <a href="">Dashboard</a>
+                            <a href="">UI Features</a>
+                            <a href="">Form Controls</a>
+                            <a href="">Custom Pages</a>
+                        </div>
+
+                        <a href="">Reports</a>
+                        <a href="">Forms</a>
+                        <a href="">Roles</a>
+                        <a href="">Help Center</a>
                     </div>
                 </div>
             </div>
@@ -186,7 +250,7 @@
                                     <p class="chart-progress-info-number">8,345</p>
                                     <p class="chart-progress-info-subtitle">My Achievements</p>
                                 </div>
-                            </div>    
+                            </div>
                         </div>
 
                         <div class="card-body">
@@ -199,7 +263,7 @@
                                     <p class="card-body-item-title">
                                         Most Sales
                                     </p>
-                                    
+
                                     <p class="card-body-item-description">
                                         Authors with the best sales
                                     </p>
@@ -215,7 +279,7 @@
                                     <p class="card-body-item-title">
                                         Total Sales Lead
                                     </p>
-                                    
+
                                     <p class="card-body-item-description">
                                         Authors with the best sales
                                     </p>
@@ -231,7 +295,7 @@
                                     <p class="card-body-item-title">
                                         Avarage Bestseller
                                     </p>
-                                    
+
                                     <p class="card-body-item-description">
                                         Authors with the best sales
                                     </p>
@@ -337,7 +401,7 @@
                                 <div class="item-number">
                                     <p>+4500$</p>
                                 </div>
-                            </div>  
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -364,7 +428,8 @@
 
                         <p class="card-top-title">Announcement</p>
                         <p class="card-middle-title">03 May 2020</p>
-                        <p class="card-bottom-title">Great blog posts dont's just happen <br> Even the best bloggers need it</p>
+                        <p class="card-bottom-title">Great blog posts dont's just happen <br> Even the best bloggers
+                            need it</p>
                     </div>
                 </div>
 
@@ -396,7 +461,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="widget-card-body">
                             <div class="widget-card-item">
                                 <table class="table">
@@ -407,7 +472,7 @@
                                                     <img src="assets/images/Cart-blue.png" alt="">
                                                 </div>
                                             </td>
-    
+
                                             <td>
                                                 <p class="widget-item-title">Top Authors</p>
                                             </td>
@@ -417,7 +482,7 @@
                                             </td>
 
                                             <td>
-                                                <p class="widget-item-user">4600 Users</p> 
+                                                <p class="widget-item-user">4600 Users</p>
                                             </td>
 
                                             <td>
@@ -431,7 +496,7 @@
                                                     <img src="assets/images/Layout-4-blocks-red.png" alt="">
                                                 </div>
                                             </td>
-    
+
                                             <td>
                                                 <p class="widget-item-title">Popular Authors</p>
                                             </td>
@@ -441,7 +506,7 @@
                                             </td>
 
                                             <td>
-                                                <p class="widget-item-user">7200 Users</p> 
+                                                <p class="widget-item-user">7200 Users</p>
                                             </td>
 
                                             <td>
@@ -455,7 +520,7 @@
                                                     <img src="assets/images/Group.png" alt="">
                                                 </div>
                                             </td>
-    
+
                                             <td>
                                                 <p class="widget-item-title">New Users</p>
                                             </td>
@@ -465,7 +530,7 @@
                                             </td>
 
                                             <td>
-                                                <p class="widget-item-user">890 Users</p> 
+                                                <p class="widget-item-user">890 Users</p>
                                             </td>
 
                                             <td>
@@ -479,7 +544,7 @@
                                                     <img src="assets/images/Library.png" alt="">
                                                 </div>
                                             </td>
-    
+
                                             <td>
                                                 <p class="widget-item-title">Active Customers</p>
                                             </td>
@@ -489,7 +554,7 @@
                                             </td>
 
                                             <td>
-                                                <p class="widget-item-user">6370 Users</p> 
+                                                <p class="widget-item-user">6370 Users</p>
                                             </td>
 
                                             <td>
@@ -503,7 +568,7 @@
                                                     <img src="assets/images/Box-purple.png" alt="">
                                                 </div>
                                             </td>
-    
+
                                             <td>
                                                 <p class="widget-item-title">Bestseller Theme</p>
                                             </td>
@@ -513,7 +578,7 @@
                                             </td>
 
                                             <td>
-                                                <p class="widget-item-user">354 Users</p> 
+                                                <p class="widget-item-user">354 Users</p>
                                             </td>
 
                                             <td>
@@ -549,7 +614,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="widget-card-body">
                             <div class="widget-card-item">
                                 <table class="table">
@@ -560,7 +625,7 @@
                                                     <img src="assets/images/boy.png" alt="">
                                                 </div>
                                             </td>
-    
+
                                             <td>
                                                 <div class="widget-item-info">
                                                     <p class="item-name">Brad Simmons</p>
@@ -572,7 +637,7 @@
                                             <td>
                                                 <div class="widget-item-rating">
                                                     <p>Rating</p>
-                                                    
+
                                                     <div class="item-rating-icons">
                                                         <img src="assets/images/Star.png" alt="">
                                                         <img src="assets/images/Star.png" alt="">
@@ -610,7 +675,7 @@
                                                     <img src="assets/images/girl-16.png" alt="">
                                                 </div>
                                             </td>
-    
+
                                             <td>
                                                 <div class="widget-item-info">
                                                     <p class="item-name">Jessie Clarcson</p>
@@ -622,7 +687,7 @@
                                             <td>
                                                 <div class="widget-item-rating">
                                                     <p>Rating</p>
-                                                    
+
                                                     <div class="item-rating-icons">
                                                         <img src="assets/images/Star.png" alt="">
                                                         <img src="assets/images/Star.png" alt="">
@@ -660,7 +725,7 @@
                                                     <img src="assets/images/boy-22.png" alt="">
                                                 </div>
                                             </td>
-    
+
                                             <td>
                                                 <div class="widget-item-info">
                                                     <p class="item-name">Lebron Wayde</p>
@@ -672,7 +737,7 @@
                                             <td>
                                                 <div class="widget-item-rating">
                                                     <p>Rating</p>
-                                                    
+
                                                     <div class="item-rating-icons">
                                                         <img src="assets/images/Star.png" alt="">
                                                         <img src="assets/images/Star.png" alt="">
@@ -710,7 +775,7 @@
                                                     <img src="assets/images/girl-12.png" alt="">
                                                 </div>
                                             </td>
-    
+
                                             <td>
                                                 <div class="widget-item-info">
                                                     <p class="item-name">Natali Trump</p>
@@ -722,7 +787,7 @@
                                             <td>
                                                 <div class="widget-item-rating">
                                                     <p>Rating</p>
-                                                    
+
                                                     <div class="item-rating-icons">
                                                         <img src="assets/images/Star.png" alt="">
                                                         <img src="assets/images/Star.png" alt="">
@@ -760,7 +825,7 @@
                                                     <img src="assets/images/boy-11.png" alt="">
                                                 </div>
                                             </td>
-    
+
                                             <td>
                                                 <div class="widget-item-info">
                                                     <p class="item-name">Kevin Leonard</p>
@@ -772,7 +837,7 @@
                                             <td>
                                                 <div class="widget-item-rating">
                                                     <p>Rating</p>
-                                                    
+
                                                     <div class="item-rating-icons">
                                                         <img src="assets/images/Star.png" alt="">
                                                         <img src="assets/images/Star.png" alt="">
@@ -812,5 +877,8 @@
             </div>
         </div>
     </main>
+
+    <script src="assets/scripts/scripts.js"></script>
 </body>
+
 </html>
