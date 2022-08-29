@@ -1,6 +1,7 @@
 body {
   font-family: "Poppins";
   font-style: normal;
+  min-width: 500px;
 }
 
 ul {
@@ -52,7 +53,7 @@ header {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 18px 20px;
+  padding: 20px;
 }
 
 .header-tabs .actived p {
@@ -217,7 +218,7 @@ header {
 }
 
 main {
-  background: #d5d9e2;
+  background: #f2f3f7;
 }
 
 .main-container {
@@ -519,7 +520,7 @@ main {
 
 .widget-trends .widget-icon {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
 }
 
@@ -982,6 +983,23 @@ main {
   padding-right: 8px;
 }
 
+.main-container .section-top .card-wrapper:first-child,
+.main-container .section-mid .card-wrapper:first-child,
+.main-container .section-bot .card-wrapper:first-child {
+  padding-right: 20px;
+}
+
+.main-container .section-top .card-wrapper:nth-child(2),
+.main-container .section-mid .card-wrapper:nth-child(2) {
+  padding: 0 20px;
+}
+
+.main-container .section-top .card-wrapper:last-child,
+.main-container .section-mid .card-wrapper:last-child,
+.main-container .section-bot .card-wrapper:last-child {
+  padding-left: 20px;
+}
+
 @media screen and (max-width: 1200px) {
   .header-wrapper .header-right .header-right-icon-wrapper {
     display: none;
@@ -1000,7 +1018,7 @@ main {
   }
 
   .main-container .section-top .widget-items .items {
-    padding-bottom: 20px;
+    padding-bottom: 15px;
   }
 
   .main-container .section-top .card-wrapper .card-chart {
@@ -1008,7 +1026,7 @@ main {
   }
 
   .main-container .section-mid .card {
-    height: 250px;
+    height: 300px;
   }
 }
 
@@ -1048,6 +1066,22 @@ main {
   .main-container .section-bot .widget-card {
     margin: 20px 0;
   }
+  .main-container .section-top .card-wrapper,
+  .main-container .section-bot .card-wrapper {
+    padding: 0 !important;
+  }
+
+  .main-container .section-mid .card-wrapper:first-child {
+    padding: 0 30px 0 0;
+  }
+
+  .main-container .section-mid .card-wrapper:nth-child(2) {
+    padding: 0 10px;
+  }
+
+  .main-container .section-mid .card-wrapper:last-child {
+    padding: 0 0 0 30px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1072,5 +1106,9 @@ main {
   .main-container .section-mid,
   .main-container .section-bot {
     margin-top: 0;
+  }
+
+  .main-container .section-mid .card-wrapper {
+    padding: 0 !important;
   }
 }
