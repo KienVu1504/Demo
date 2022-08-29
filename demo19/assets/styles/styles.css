@@ -633,6 +633,7 @@ main {
 
 .widget-arrival .table input[type="checkbox"]:checked {
   background-color: #1bc5bd;
+  background-image: url(../images/check.png) !important;
 }
 
 .widget-arrival .table tbody tr:last-child td {

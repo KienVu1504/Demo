@@ -1,468 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Metronic</title>
-    
+
     <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
     <link rel="stylesheet" href="assets/styles/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
+
 <body>
-    <main class="main">
-        <header class="header">
-            <div class="left">
-                <img src="assets/images/logo-dark-1.png" alt="logo" class="logo">
-            </div>
-
-            <div class="right">
-                <div class="menu">
-                    <ul class="menu-child">
-                        <li class="actived">Dashboard</li>
-                        <li>Apps</li>
-                        <li>Layout</li>
-                        <li>Features</li>
-                        <li>Docs</li>
-                    </ul>
+    <div class="body-bg">
+        <section class="main-content container">
+            <header class="row">
+                <div class="logo col-2">
+                    <img src="assets/images/logo-dark.svg" alt="">
                 </div>
 
-                <div class="notification">
-                    <img src="assets/images/arr002.svg" alt="chat">
-                </div>
-
-                <div class="notification">
-                    <img src="assets/images/gen007.png" alt="notification">
-                </div>
-            </div>
-        </header>
-
-        <section class="side-menu">
-            <div class="side-menu-wrapper">
-                <div class="search">
-                    <img src="assets/images/search.png" alt="search">
-                </div>
-    
-                <div class="vertical-menu">
-                    <ul>
-                        <li class="actived vertical-menu-item">
-                            <img src="assets/images/menu.png" alt="">
-                        </li>
-    
-                        <li class="vertical-menu-item">
-                            <img src="assets/images/Duotone1.png" alt="">
-                        </lic>
-                        
-                        <li class="vertical-menu-item">  
-                            <img src="assets/images/Duotone2.png" alt="">
-                        </li>
-                        
-                        <li class="vertical-menu-item">
-                            <img src="assets/images/Duotone3.png" alt="">
-                        </li>
-                        
-                        <li class="vertical-menu-item">
-                            <img src="assets/images/Duotone4.png" alt="">
-                        </li>
-                        
-                        <li class="vertical-menu-item">
-                            <img src="assets/images/Duotone5.png" alt="">
-                        </li>
-                    </ul>
-                </div>
-    
-                <div class="setting">
-                    <img src="assets/images/setting.png" alt="setting">
-                </div>
-            </div>
-        </section>
-
-        <section class="tabs">
-            <div class="title">
-                <p>We are working hard to boost your lovely mood</p>
-            </div>
-
-            <div class="icons">
-                <ul>
-                    <li>
-                        <img src="assets/images/map002.png" alt="">
-                    </li>
-
-                    <li class="actived">
-                        <img src="assets/images/teh008.png" alt="">
-                    </li>
-
-                    <li>
-                        <img src="assets/images/art002.png" alt="">
-                    </li>
-
-                    <li>
-                        <img src="assets/images/abs042.png" alt="">
-                    </li>
-
-                    <li>
-                        <img src="assets/images/med005.png" alt="">
-                    </li>
-
-                    <li>
-                        <img src="assets/images/abs037.png" alt="">
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="big-buttons">
-            <ul>
-                <li>
-                    <div class="card-title">
-                        <p>Bowl Holders</p>
-                    </div>
-
-                    <div class="img" style="background-image: url(assets/images/cup.jpg);">
-                    </div>
-                </li>
-
-                <li>
-                    <div class="card-title">
-                        <p>Shopping Lovers</p>
-                    </div>
-
-                    <div class="img" style="background-image: url(assets/images/shoppings.jpg);">
-                    </div>
-                </li>
-
-                <li>
-                    <div class="card-title">
-                        <p>Card Managers</p>
-                    </div>
-
-                    <div class="img" style="background-image: url(assets/images/cart.jpg);">
-                    </div>
-                </li>
-
-                <li>
-                    <div class="card-title">
-                        <p>Setting Setters</p>
-                    </div>
-
-                    <div class="img" style="background-image: url(assets/images/magnifying.jpg);">
-                    </div>
-                </li>
-            </ul>
-        </section>
-
-        <section class="widgets-section">
-            <div class="widgets">
-                <div class="head">
-                    <div class="head-left">
-                        <p class="head-title">Trending items</p>
-
-                        <p class="head-grey">More than 400+ new members</p>
-                    </div>
-
-                    <div class="head-right">
-                        <ul>
-                            <li>
-                                <p>Month</p>
-                            </li>
-
-                            <li>
-                                <p>Week</p>
-                            </li>
-
-                            <li class="actived">
-                                <p>Day</p>
-                            </li>
+                <div class="header-right col-10">
+                    <div class="right-menu">
+                        <ul class="right-menu-wrapper">
+                            <li class="right-menu-item actived">Dashboard</li>
+                            <li class="right-menu-item">Apps</li>
+                            <li class="right-menu-item">Layout</li>
+                            <li class="right-menu-item">Features</li>
+                            <li class="right-menu-item">Docs</li>
                         </ul>
                     </div>
-                </div>
 
-                <div class="widgets-item">
-                    <ul>
-                        <li>
-                            <div class="widgets-item-icon">
-                                <img src="assets/images/184-plurk.png" alt="">
-                            </div>
+                    <div class="right-btn-wrapper">
+                        <div class="right-btn">
+                            <img src="assets/images/arr002.svg" alt="">
+                        </div>
 
-                            <div class="widgets-item-status">
-                                <p class="widgets-item-status-title">Top Authors</p>
-
-                                <p class="widgets-item-status-gray">Successful Fellas</p>
-                            </div>
-
-                            <div class="widgets-item-progress">
-                                <div class="widgets-item-progress-titles">
-                                    <p class="widgets-item-progress-titles-persent">65%</p>
-
-                                    <p class="widgets-item-progress-titles-small">Progress</p>
-                                </div>
-
-                                <div class="widgets-item-progress-bar">
-                                    <div class="progress">
-                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="widgets-item-button">
-                                <img src="assets/images/Right-2.png" alt="">
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="widgets-item-icon">
-                                <img src="assets/images/186-telegram.png" alt="">
-                            </div>
-
-                            <div class="widgets-item-status">
-                                <p class="widgets-item-status-title">Popular Authors</p>
-
-                                <p class="widgets-item-status-gray">Successful Fellas</p>
-                            </div>
-
-                            <div class="widgets-item-progress">
-                                <div class="widgets-item-progress-titles">
-                                    <p class="widgets-item-progress-titles-persent">83%</p>
-
-                                    <p class="widgets-item-progress-titles-small">Progress</p>
-                                </div>
-
-                                <div class="widgets-item-progress-bar">
-                                    <div class="progress">
-                                        <div class="progress-bar bg-success" role="progressbar" style="width: 83%" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="widgets-item-button">
-                                <img src="assets/images/Right-2.png" alt="">
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="widgets-item-icon">
-                                <img src="assets/images/194-puzzle.png" alt="">
-                            </div>
-
-                            <div class="widgets-item-status">
-                                <p class="widgets-item-status-title">New Users</p>
-
-                                <p class="widgets-item-status-gray">Successful Fellas</p>
-                            </div>
-
-                            <div class="widgets-item-progress">
-                                <div class="widgets-item-progress-titles">
-                                    <p class="widgets-item-progress-titles-persent">47%</p>
-
-                                    <p class="widgets-item-progress-titles-small">Progress</p>
-                                </div>
-
-                                <div class="widgets-item-progress-bar">
-                                    <div class="progress">
-                                        <div class="progress-bar bg-purple" role="progressbar" style="width: 47%" aria-valuenow="47" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="widgets-item-button">
-                                <img src="assets/images/Right-2.png" alt="">
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="widgets-item-icon">
-                                <img src="assets/images/182-bebo.png" alt="">
-                            </div>
-
-                            <div class="widgets-item-status">
-                                <p class="widgets-item-status-title">Active Customers</p>
-
-                                <p class="widgets-item-status-gray">Successful Fellas</p>
-                            </div>
-
-                            <div class="widgets-item-progress">
-                                <div class="widgets-item-progress-titles">
-                                    <p class="widgets-item-progress-titles-persent">71%</p>
-
-                                    <p class="widgets-item-progress-titles-small">Progress</p>
-                                </div>
-
-                                <div class="widgets-item-progress-bar">
-                                    <div class="progress">
-                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 71%" aria-valuenow="71" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="widgets-item-button">
-                                <img src="assets/images/Right-2.png" alt="">
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="widgets-item-icon">
-                                <img src="assets/images/186-telegram.png" alt="">
-                            </div>
-
-                            <div class="widgets-item-status">
-                                <p class="widgets-item-status-title">Bestseller Theme</p>
-
-                                <p class="widgets-item-status-gray">Successful Fellas</p>
-                            </div>
-
-                            <div class="widgets-item-progress">
-                                <div class="widgets-item-progress-titles">
-                                    <p class="widgets-item-progress-titles-persent">83%</p>
-
-                                    <p class="widgets-item-progress-titles-small">Progress</p>
-                                </div>
-
-                                <div class="widgets-item-progress-bar">
-                                    <div class="progress">
-                                        <div class="progress-bar bg-success" role="progressbar" style="width: 83%" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="widgets-item-button">
-                                <img src="assets/images/Right-2.png" alt="">
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="widgets">
-                <div class="head">
-                    <div class="head-left">
-                        <p class="head-title">Files</p>
-
-                        <p class="head-grey">More than 400+ new members</p>
-                    </div>
-
-                    <div class="head-right-section">
-                        <div class="head-right-button">
-                            <p>Create a Store</p>
+                        <div class="right-btn">
+                            <img src="assets/images/gen007.svg" alt="">
                         </div>
                     </div>
                 </div>
+            </header>
 
-                <div class="widgets-item">
-                    <ul>
-                        <li>
-                            <div class="widgets-item-icon">
-                                <img src="assets/images/Cart3.png" alt="">
+            <main>
+                <section class="section-top row">
+                    <div class="section-title col-6">
+                        <h1>
+                            We are working hard to boost
+                            <br>
+                            your lovely mood
+                        </h1>
+                    </div>
+
+                    <div class="section-btn col-6">
+                        <ul class="right-btn-wrapper">
+                            <li class="right-btn">
+                                <img src="assets/images/map002.svg" alt="">
+                            </li>
+
+                            <li class="right-btn actived">
+                                <img src="assets/images/teh008.svg" alt="">
+                            </li>
+
+                            <li class="right-btn">
+                                <img src="assets/images/art002.svg" alt="">
+                            </li>
+
+                            <li class="right-btn">
+                                <img src="assets/images/abs042.svg" alt="">
+                            </li>
+
+                            <li class="right-btn">
+                                <img src="assets/images/med005.svg" alt="">
+                            </li>
+
+                            <li class="right-btn">
+                                <img src="assets/images/abs037.svg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="section-mid">
+                    <div class="big-card-wrapper row">
+                        <div class="big-card col-3">
+                            <div class="big-card-content">
+                                <p>Bowl Holders</p>
+                                <img src="assets/images/cup.svg" alt="">
                             </div>
+                        </div>
 
-                            <div class="widgets-item-status">
-                                <p class="widgets-item-status-title-2">Top Authors</p>
+                        <div class="big-card col-3">
+                            <div class="big-card-content">
+                                <p>Shopping Lovers</p>
+                                <img src="assets/images/shoppings.svg" alt="">
                             </div>
+                        </div>
 
-                            <div class="widgets-item-progress-1">
-                                <div class="widgets-item-progress-titles">
-                                    <p class="widgets-item-progress-titles-persent">ReactJs, HTML</p>
-
-                                    <p class="widgets-item-progress-titles-small">4600 Users</p>
-                                </div>
+                        <div class="big-card col-3">
+                            <div class="big-card-content">
+                                <p>Card Managers</p>
+                                <img src="assets/images/cart.svg" alt="">
                             </div>
+                        </div>
 
-                            <div class="widgets-item-capacity">
-                                <p>5.4MB</p>
+                        <div class="big-card col-3">
+                            <div class="big-card-content">
+                                <p>Setting Setters</p>
+                                <img src="assets/images/magnifying.svg" alt="">
                             </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </section>
+
+        <aside>
+            <div class="side-nav">
+                <div class="search">
+                    <img src="assets/images/gen004.svg" alt="">
+                </div>
+
+                <div class="menu">
+                    <ul class="menu-wrapper">
+                        <li class="menu-item actived">
+                            <img src="assets/images/Duotone.svg" alt="">
                         </li>
 
-                        <li>
-                            <div class="widgets-item-icon">
-                                <img src="assets/images/Layout-4-blocks.png" alt="">
-                            </div>
-
-                            <div class="widgets-item-status">
-                                <p class="widgets-item-status-title-2">Popular Authors</p>
-                            </div>
-
-                            <div class="widgets-item-progress-1">
-                                <div class="widgets-item-progress-titles">
-                                    <p class="widgets-item-progress-titles-persent">Python, MySQL</p>
-
-                                    <p class="widgets-item-progress-titles-small">7200 Users</p>
-                                </div>
-                            </div>
-
-                            <div class="widgets-item-capacity">
-                                <p>2.8MB</p>
-                            </div>
+                        <li class="menu-item">
+                            <img src="assets/images/Duotone-1.svg" alt="">
                         </li>
 
-                        <li>
-                            <div class="widgets-item-icon">
-                                <img src="assets/images/Group.png" alt="">
-                            </div>
-
-                            <div class="widgets-item-status">
-                                <p class="widgets-item-status-title-2">New Users</p>
-                            </div>
-
-                            <div class="widgets-item-progress-1">
-                                <div class="widgets-item-progress-titles">
-                                    <p class="widgets-item-progress-titles-persent">Laravel, Metronic</p>
-
-                                    <p class="widgets-item-progress-titles-small">890 Users</p>
-                                </div>
-                            </div>
-
-                            <div class="widgets-item-capacity">
-                                <p>1.5MB</p>
-                            </div>
+                        <li class="menu-item">
+                            <img src="assets/images/Duotone-2.svg" alt="">
                         </li>
 
-                        <li>
-                            <div class="widgets-item-icon">
-                                <img src="assets/images/Library.png" alt="">
-                            </div>
-
-                            <div class="widgets-item-status">
-                                <p class="widgets-item-status-title-2">Active Customers</p>
-                            </div>
-
-                            <div class="widgets-item-progress-1">
-                                <div class="widgets-item-progress-titles">
-                                    <p class="widgets-item-progress-titles-persent">AngularJS, C#</p>
-
-                                    <p class="widgets-item-progress-titles-small">6370 Users</p>
-                                </div>
-                            </div>
-
-                            <div class="widgets-item-capacity">
-                                <p>890KB</p>
-                            </div>
+                        <li class="menu-item">
+                            <img src="assets/images/User.svg" alt="">
                         </li>
 
-                        <li>
-                            <div class="widgets-item-icon">
-                                <img src="assets/images/Box3.png" alt="">
-                            </div>
+                        <li class="menu-item">
+                            <img src="assets/images/Grid-horizontal.svg" alt="">
+                        </li>
 
-                            <div class="widgets-item-status">
-                                <p class="widgets-item-status-title-2">Bestseller Theme</p>
-                            </div>
-
-                            <div class="widgets-item-progress-1">
-                                <div class="widgets-item-progress-titles">
-                                    <p class="widgets-item-progress-titles-persent">ReactJS, Ruby</p>
-
-                                    <p class="widgets-item-progress-titles-small">354 Users</p>
-                                </div>
-                            </div>
-
-                            <div class="widgets-item-capacity">
-                                <p>500KB</p>
-                            </div>
+                        <li class="menu-item">
+                            <img src="assets/images/lock.svg" alt="">
                         </li>
                     </ul>
                 </div>
+
+                <div class="setting">
+                    <img src="assets/images/cod001.svg" alt="">
+                </div>
             </div>
-        </section>
-    </main>
+        </aside>
+    </div>
 </body>
+
 </html>
