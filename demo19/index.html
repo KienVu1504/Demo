@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,12 @@
     <title>Demo19</title>
 
     <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
-	<link rel="stylesheet" href="assets/styles/styles.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css">
 </head>
+
 <body>
     <section class="container main">
         <header class="row">
@@ -43,14 +46,14 @@
                     <img src="assets/images/Layout-Vertical.png" alt="">
                 </div>
 
-                <div class="header-right-buttons">
+                <div class="header-right-buttons" onclick="mobileNav()">
                     <i class="fas fa-bars"></i>
                 </div>
             </div>
         </header>
 
         <main>
-            <section class="tabs">
+            <section class="tabs" id="mobileNav">
                 <div class="items actived">
                     <p>APPLICATION</p>
                 </div>
@@ -81,7 +84,7 @@
             </section>
 
             <section class="sub-header row">
-                <div class="sub-header-left col-md-6">
+                <div class="sub-header-left col-6">
                     <p class="actived">Dashboard</p>
 
                     <img src="assets/images/Group.png" alt="">
@@ -89,7 +92,7 @@
                     <p>Application</p>
                 </div>
 
-                <div class="sub-header-right col-md-6">
+                <div class="sub-header-right col-6">
                     <div class="sub-header-right-button">
                         <p>
                             Today <c>Aug 11</c>
@@ -104,47 +107,47 @@
 
             <section class="widgets-section">
                 <div class="row">
-                    <div class="col-md-4 widget-progress">
+                    <div class="col-xl-4 col-12 widget-progress">
                         <div class="widget-wrapper">
                             <div class="widget-head row">
                                 <div class="widget-title col-md-10">
                                     <p>Sales Progress</p>
                                 </div>
-    
+
                                 <div class="widget-icon col-md-2">
                                     <img src="assets/images/Dots.png" alt="">
                                 </div>
                             </div>
-    
+
                             <div class="widget-chart">
                                 <img src="assets/images/Chart.png" alt="">
                             </div>
-    
+
                             <div class="widget-stats">
                                 <div class="row">
-                                    <div class="col-md-7 widget-stats-item">
+                                    <div class="col-7 widget-stats-item">
                                         <p class="widget-stats-title">Average Sale</p>
-    
+
                                         <p class="widget-stats-number">$650</p>
                                     </div>
-    
-                                    <div class="col-md-5 widget-stats-item">
+
+                                    <div class="col-5 widget-stats-item">
                                         <p class="widget-stats-title">Comission</p>
-    
+
                                         <p class="widget-stats-number">$29,004</p>
                                     </div>
                                 </div>
-    
+
                                 <div class="row">
-                                    <div class="col-md-7 widget-stats-item">
+                                    <div class="col-7 widget-stats-item">
                                         <p class="widget-stats-title">Annual Taxes 2019</p>
-    
+
                                         <p class="widget-stats-number">$233,600</p>
                                     </div>
-    
-                                    <div class="col-md-5 widget-stats-item">
+
+                                    <div class="col-5 widget-stats-item">
                                         <p class="widget-stats-title">Annual Income</p>
-    
+
                                         <p class="widget-stats-number">$1,480,00</p>
                                     </div>
                                 </div>
@@ -152,7 +155,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-8">
+                    <div class="col-xl-8 col-12">
                         <div class="row">
                             <div class="col-md-3 widget-customer">
                                 <div class="widget-head-wrapper">
@@ -177,10 +180,9 @@
                                         <img src="assets/images/Arrow-right.png" alt="">
                                     </div>
 
-                                </div>
-
-                                <div class="widget-bg">
-                                    <img src="assets/images/Taieri.svg" alt="">
+                                    <div class="widget-bg">
+                                        <img src="assets/images/Taieri.svg" alt="">
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -188,12 +190,12 @@
                         <div class="row section-2">
                             <div class="col-md-8 widget-crm">
                                 <div class="widget-head-wrapper row">
-                                    <div class="col-md-6">
+                                    <div class="col-6">
                                         <p class="widgets-title">Generate CRM</p>
                                         <p class="widgets-description">Outlines keep honest reviews</p>
                                     </div>
 
-                                    <div class="col-md-6 right-position">
+                                    <div class="col-6 right-position">
                                         <p class="widgets-number">$24,200</p>
                                     </div>
                                 </div>
@@ -211,14 +213,14 @@
                     </div>
                 </div>
 
-                <div class="row" style="margin-top: 40px;">
-                    <div class="col-md-4 widget-trends">
+                <div class="row">
+                    <div class="col-xl-4 widget-trends">
                         <div class="widget-wrapper">
                             <div class="widget-head row">
                                 <div class="widget-title col-md-10">
                                     <p>Trends</p>
                                 </div>
-    
+
                                 <div class="widget-icon col-md-2">
                                     <img src="assets/images/Dots-1.png" alt="">
                                 </div>
@@ -313,14 +315,14 @@
                         </div>
                     </div>
 
-                    <div class="col-md-8 widget-arrival">
+                    <div class="col-xl-8 widget-arrival">
                         <div class="widget-head row">
-                            <div class="widget-heading col-md-6">
+                            <div class="widget-heading col-6">
                                 <p class="widget-title">New Arrivals</p>
                                 <p class="widget-subtitle">More than 400+ new member</p>
                             </div>
 
-                            <div class="col-md-6 widget-btn-wrapper">
+                            <div class="col-6 widget-btn-wrapper">
                                 <div class="widget-btn">
                                     <img src="assets/images/Add-user.png" alt="">
                                     <p>New Member</p>
@@ -351,7 +353,7 @@
                                                 <div class="author-img">
                                                     <img src="assets/images/boy.png" alt="">
                                                 </div>
-    
+
                                                 <div class="author-info">
                                                     <p class="author-name">Brad Simmons</p>
                                                     <p class="author-skills">HTML, JS, ReactJS</p>
@@ -367,7 +369,9 @@
                                         <td class="table-progress">
                                             <p>65%</p>
                                             <div class="progress">
-                                                <div class="progress-bar bg-danger" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-danger" role="progressbar"
+                                                    style="width: 65%" aria-valuenow="65" aria-valuemin="0"
+                                                    aria-valuemax="100"></div>
                                             </div>
                                         </td>
 
@@ -394,7 +398,7 @@
                                                 <div class="author-img">
                                                     <img src="assets/images/girl-16.png" alt="">
                                                 </div>
-    
+
                                                 <div class="author-info">
                                                     <p class="author-name">Jessie Clarcson</p>
                                                     <p class="author-skills">C#, ASP.NET, MS SQL</p>
@@ -410,7 +414,9 @@
                                         <td class="table-progress">
                                             <p>83%</p>
                                             <div class="progress">
-                                                <div class="progress-bar bg-success" role="progressbar" style="width: 83%" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-success" role="progressbar"
+                                                    style="width: 83%" aria-valuenow="83" aria-valuemin="0"
+                                                    aria-valuemax="100"></div>
                                             </div>
                                         </td>
 
@@ -437,7 +443,7 @@
                                                 <div class="author-img">
                                                     <img src="assets/images/Group-2.png" alt="">
                                                 </div>
-    
+
                                                 <div class="author-info">
                                                     <p class="author-name">Lebron Wayde</p>
                                                     <p class="author-skills">PHP, Laravel, VuaJS</p>
@@ -453,7 +459,9 @@
                                         <td class="table-progress">
                                             <p>47%</p>
                                             <div class="progress">
-                                                <div class="progress-bar bg-purple" role="progressbar" style="width: 47%" aria-valuenow="47" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-purple" role="progressbar"
+                                                    style="width: 47%" aria-valuenow="47" aria-valuemin="0"
+                                                    aria-valuemax="100"></div>
                                             </div>
                                         </td>
 
@@ -480,7 +488,7 @@
                                                 <div class="author-img">
                                                     <img src="assets/images/girl-12.png" alt="">
                                                 </div>
-    
+
                                                 <div class="author-info">
                                                     <p class="author-name">Natail Trump</p>
                                                     <p class="author-skills">Python, ReactJS</p>
@@ -496,7 +504,9 @@
                                         <td class="table-progress">
                                             <p>71%</p>
                                             <div class="progress">
-                                                <div class="progress-bar bg-danger" role="progressbar" style="width: 71%" aria-valuenow="71" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-danger" role="progressbar"
+                                                    style="width: 71%" aria-valuenow="71" aria-valuemin="0"
+                                                    aria-valuemax="100"></div>
                                             </div>
                                         </td>
 
@@ -520,5 +530,8 @@
             </section>
         </main>
     </section>
+
+    <script src="assets/scripts/scripts.js"></script>
 </body>
+
 </html>
