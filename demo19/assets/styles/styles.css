@@ -725,3 +725,40 @@ main{
 .widget-arrival .table .bg-purple{
     background-color: #8950FC;;
 }
+
+.main .header-right .header-right-buttons:last-child{
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    .main .logo{
+        justify-content: center;
+    }
+
+    .main .header-right{
+        justify-content: center;
+        margin-top: 10px !important;
+    }
+
+    .main .header-right .header-right-buttons:last-child{
+        display: flex;
+        color: white;
+    }
+
+    main .tabs{
+        display: unset;
+    }
+
+    main .tabs .items{
+        border-radius: 10px;
+        margin: 10px 0;
+    }
+
+    main .sub-header{
+        border-top-left-radius: 10px;
+    }
+}
