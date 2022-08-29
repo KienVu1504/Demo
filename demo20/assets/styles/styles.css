@@ -408,7 +408,7 @@ main {
 
 .widget-weekly .card .card-body {
   position: absolute;
-  width: 100%;
+  width: -webkit-fill-available;
   bottom: 30px;
   padding: 0 !important;
 }
@@ -958,8 +958,8 @@ main {
 }
 
 .menu-tabs-mobile a:hover,
-.dropdown-btn:hover{
-    background-color: white;
+.dropdown-btn:hover {
+  background-color: white;
 }
 
 .dropdown-container {
@@ -968,13 +968,13 @@ main {
   padding-left: 8px;
 }
 
-.dropdown-container a{
-    color: #80808f;
-    background-color: #f3f6f9;
+.dropdown-container a {
+  color: #80808f;
+  background-color: #f3f6f9;
 }
 
-.dropdown-container a:hover{
-    color: #3699ff;
+.dropdown-container a:hover {
+  color: #3699ff;
 }
 
 .fa-caret-down {
@@ -994,6 +994,60 @@ main {
   .header-right .header-btn-mobile {
     display: flex;
   }
+
+  .main-container .section-top .card {
+    height: 500px;
+  }
+
+  .main-container .section-top .widget-items .items {
+    padding-bottom: 20px;
+  }
+
+  .main-container .section-top .card-wrapper .card-chart {
+    margin-top: 55px;
+  }
+
+  .main-container .section-mid .card {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main-container .section-top .card {
+    height: 500px;
+    margin: 20px 0;
+  }
+
+  .main-container .section-top .card .card-top-img-1 {
+    display: none;
+  }
+
+  .main-container .section-top .card .card-top-img-2 {
+    bottom: 50px;
+  }
+
+  .main-container .section-top .card-carts .cart {
+    padding-left: 0;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .main-container .section-top .widget-items .items {
+    padding-bottom: 30px;
+  }
+
+  .main-container .section-mid .card {
+    height: 320px;
+  }
+
+  .main-container .section-mid,
+  .main-container .section-bot {
+    margin-top: 20px;
+  }
+
+  .main-container .section-bot .widget-card {
+    margin: 20px 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1004,5 +1058,19 @@ main {
 
   .menu-tabs-mobile {
     display: unset;
+  }
+
+  .main-container .section-top .card .card-top-img-2 {
+    bottom: 60px;
+  }
+
+  .main-container .section-mid .card {
+    height: 200px;
+    margin: 20px 0;
+  }
+
+  .main-container .section-mid,
+  .main-container .section-bot {
+    margin-top: 0;
   }
 }
