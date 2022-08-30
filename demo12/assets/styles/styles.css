@@ -2,6 +2,8 @@ body {
   background-image: url(../images/bg.png);
   font-family: "Poppins";
   font-style: normal;
+  transition: all 0.2s ease-in-out !important;
+  min-width: 550px;
 }
 
 .table > :not(caption) > * > * {
@@ -45,6 +47,7 @@ header.row {
 aside {
   height: 100vh;
   width: 140px;
+  transition: all 0.2s ease-in-out;
 }
 
 aside .side-nav {
@@ -56,6 +59,7 @@ aside .side-nav {
   bottom: 40px;
   right: 0;
   width: 140px;
+  transition: all 0.2s ease-in-out;
 }
 
 aside .side-nav .search {
@@ -141,7 +145,8 @@ aside .setting {
   align-items: center;
 }
 
-.main-content .header-right .right-btn {
+.main-content .header-right .right-btn,
+.main-content .logo .right-btn {
   width: 40px;
   height: 40px;
   background: #ffea33;
@@ -153,7 +158,12 @@ aside .setting {
   transition: all 0.2s ease-in-out;
 }
 
-.main-content .header-right .right-btn:hover {
+.main-content .logo .right-btn {
+  display: none;
+}
+
+.main-content .header-right .right-btn:hover,
+.main-content .logo .right-btn:hover {
   cursor: pointer;
   transform: scale(1.2);
 }
@@ -233,37 +243,41 @@ main .section-mid {
   margin: 92px 0 40px 0 !important;
 }
 
-main .section-mid .big-card.col-3 {
+main .section-mid .big-card {
   width: 22.6%;
   margin: 0 40px 0 0;
 }
 
-main .section-mid .big-card {
+main .section-mid .big-card-content {
   transition: all 0.2s ease-in-out;
 }
 
-main .section-mid .big-card:first-child img {
+main .section-mid .row-wrapper:first-child .big-card-content img {
   bottom: -5px;
 }
 
-main .section-mid .big-card:nth-child(2) img {
+main .section-mid .row-wrapper:nth-child(2) .big-card-content img {
+  left: 0;
+}
+
+main .section-mid .row-wrapper:first-child .big-card-content:nth-child(2) img {
   bottom: -25px;
 }
 
-main .section-mid .big-card:nth-child(3) img {
+main .section-mid .row-wrapper:nth-child(2) .big-card-content:first-child img {
   left: unset;
 }
 
-main .section-mid .big-card:last-child img {
+main .section-mid .big-card-content:last-child img {
   bottom: -25px;
 }
 
-main .section-mid .big-card:hover {
+main .section-mid .big-card-content:hover {
   cursor: pointer;
   transform: scale(1.1);
 }
 
-main .section-mid .big-card:last-child.col-3 {
+main .section-mid .big-card:last-child {
   margin-right: 0 !important;
 }
 
@@ -272,6 +286,7 @@ main .section-mid .big-card-content {
   height: 320px;
   border-radius: 20px;
   position: relative;
+  width: 293px;
 }
 
 main .section-mid .big-card-content p {
@@ -291,10 +306,15 @@ main .section-mid .big-card-content img {
   left: 0;
   right: 0;
   margin: 0 auto;
+  border-bottom-right-radius: 20px;
 }
 
 .section-bot {
   margin-bottom: 83px;
+}
+
+.section-bot .widget-wrapper {
+  display: flex;
 }
 
 .section-bot .widget-wrapper .widget-left,
@@ -303,6 +323,15 @@ main .section-mid .big-card-content img {
   border-radius: 12px;
   height: 500px;
   padding: 26px 30px !important;
+  width: 50%;
+}
+
+.section-bot .widget-wrapper .widget-left {
+  margin-right: 20px;
+}
+
+.section-bot .widget-wrapper .widget-right {
+  margin-left: 20px;
 }
 
 .section-bot .widget-wrapper .widget-left.col-6:first-child {
@@ -624,4 +653,159 @@ main .section-mid .big-card-content img {
 
 .section-bot .widget-right .table-item:last-child .item-logo {
   background: #eee5ff;
+}
+
+.section-mid .big-card-wrapper,
+.section-mid .big-card-wrapper .row-wrapper {
+  display: flex;
+}
+
+.section-mid .big-card-wrapper .row-wrapper:first-child,
+.section-mid .big-card-wrapper .row-wrapper .big-card-content:first-child {
+  margin-right: 40px;
+}
+
+.header-right .right-btn-wrapper .right-btn:first-child {
+  display: none;
+}
+
+.mobile-nav-left{
+  width: 0;
+}
+
+.mobile-nav-left .side-nav {
+  left: 0;
+  border-radius: 0 20px 20px 0;
+  width: 0;
+  opacity: 0;
+}
+
+.mobile-nav-left .side-nav .right-menu-item {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #7e8299;
+  text-align: center;
+}
+
+.mobile-nav-left .side-nav .menu {
+  height: -webkit-fill-available;
+  position: relative;
+}
+
+.mobile-nav-left .side-nav .right-menu-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: fit-content;
+  margin: auto !important;
+}
+
+.mobile-nav-left .side-nav .right-menu-wrapper .right-menu-item {
+  padding: 25px 0px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.mobile-nav-left .side-nav .right-menu-wrapper .right-menu-item:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.mobile-nav-left .side-nav .right-menu-wrapper .right-menu-item.actived {
+  color: white;
+}
+
+@media screen and (max-width: 1470px) {
+  main .section-mid .big-card-content {
+    width: 260px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  main .section-mid .big-card-content {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  main .section-mid .big-card-content {
+    width: 300px;
+  }
+
+  .section-mid .big-card-wrapper {
+    display: unset;
+  }
+
+  .section-mid .big-card-wrapper .row-wrapper:first-child {
+    margin-bottom: 40px;
+    margin-right: 0;
+  }
+
+  .section-mid .big-card-wrapper .row-wrapper {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  main .section-top .section-btn {
+    justify-content: center;
+  }
+
+  main .section-top .section-title h1 {
+    text-align: center;
+  }
+
+  .section-bot .widget-wrapper {
+    display: unset;
+  }
+
+  .section-bot .widget-wrapper .widget-left,
+  .section-bot .widget-wrapper .widget-right {
+    width: 645px;
+    margin: 0 auto 40px auto;
+  }
+}
+
+@media screen and (max-width: 993px) {
+  .header-right .right-menu {
+    display: none;
+  }
+
+  .main-content .logo .right-btn {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  aside {
+    width: 0;
+  }
+
+  aside .side-nav {
+    width: 0;
+  }
+
+  .header-right .right-btn-wrapper .right-btn:first-child {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-bot .widget-wrapper .widget-left,
+  .section-bot .widget-wrapper .widget-right {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .section-mid .big-card-wrapper .row-wrapper {
+    display: unset;
+  }
+
+  .section-mid .big-card-wrapper .row-wrapper .big-card-content {
+    margin: 0 auto 30px auto !important;
+  }
 }

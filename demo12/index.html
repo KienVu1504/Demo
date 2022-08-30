@@ -11,17 +11,22 @@
     <link rel="stylesheet" href="assets/styles/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css">
 </head>
 
 <body>
     <div class="body-bg">
         <section class="main-content container">
             <header class="row">
-                <div class="logo col-2">
+                <div class="logo col-md-4 col-6">
                     <img src="assets/images/logo-dark.svg" alt="">
+
+                    <div class="right-btn" onclick="mobileNavLeft()">
+                        <i class="fas fa-bars"></i>
+                    </div>
                 </div>
 
-                <div class="header-right col-10">
+                <div class="header-right col-md-8 col-6">
                     <div class="right-menu">
                         <ul class="right-menu-wrapper">
                             <li class="right-menu-item actived">Dashboard</li>
@@ -33,6 +38,10 @@
                     </div>
 
                     <div class="right-btn-wrapper">
+                        <div class="right-btn" onclick="mobileNavRight()">
+                            <i class="fas fa-bars"></i>
+                        </div>
+
                         <div class="right-btn">
                             <img src="assets/images/arr002.svg" alt="">
                         </div>
@@ -46,7 +55,7 @@
 
             <main>
                 <section class="section-top row">
-                    <div class="section-title col-6">
+                    <div class="section-title col-xl-6 col-12">
                         <h1>
                             We are working hard to boost
                             <br>
@@ -54,7 +63,7 @@
                         </h1>
                     </div>
 
-                    <div class="section-btn col-6">
+                    <div class="section-btn col-xl-6 col-12">
                         <ul class="right-btn-wrapper">
                             <li class="right-btn">
                                 <img src="assets/images/map002.svg" alt="">
@@ -84,29 +93,25 @@
                 </section>
 
                 <section class="section-mid">
-                    <div class="big-card-wrapper row">
-                        <div class="big-card col-3">
+                    <div class="big-card-wrapper">
+                        <div class="row-wrapper">
                             <div class="big-card-content">
                                 <p>Bowl Holders</p>
                                 <img src="assets/images/cup.svg" alt="">
                             </div>
-                        </div>
 
-                        <div class="big-card col-3">
                             <div class="big-card-content">
                                 <p>Shopping Lovers</p>
                                 <img src="assets/images/shoppings.svg" alt="">
                             </div>
                         </div>
 
-                        <div class="big-card col-3">
+                        <div class="row-wrapper">
                             <div class="big-card-content">
                                 <p>Card Managers</p>
                                 <img src="assets/images/cart.svg" alt="">
                             </div>
-                        </div>
 
-                        <div class="big-card col-3">
                             <div class="big-card-content">
                                 <p>Setting Setters</p>
                                 <img src="assets/images/magnifying.svg" alt="">
@@ -116,8 +121,8 @@
                 </section>
 
                 <section class="section-bot">
-                    <div class="widget-wrapper row">
-                        <div class="widget-left col-6">
+                    <div class="widget-wrapper">
+                        <div class="widget-left">
                             <div class="widget-header row">
                                 <div class="widget-title-wrapper col-6">
                                     <p class="widget-title">Trending Items</p>
@@ -317,7 +322,7 @@
                             </div>
                         </div>
 
-                        <div class="widget-right col-6">
+                        <div class="widget-right">
                             <div class="widget-header row">
                                 <div class="widget-title-wrapper col-6">
                                     <p class="widget-title">Files</p>
@@ -473,7 +478,7 @@
         </section>
 
         <aside>
-            <div class="side-nav">
+            <div class="side-nav" id="sideNavRight">
                 <div class="search">
                     <img src="assets/images/gen004.svg" alt="">
                 </div>
@@ -511,7 +516,23 @@
                 </div>
             </div>
         </aside>
+
+        <aside class="mobile-nav-left">
+            <div class="side-nav" id="sideNavLeft">
+                <div class="menu">
+                    <ul class="right-menu-wrapper">
+                        <li class="right-menu-item actived">Dashboard</li>
+                        <li class="right-menu-item">Apps</li>
+                        <li class="right-menu-item">Layout</li>
+                        <li class="right-menu-item">Features</li>
+                        <li class="right-menu-item">Docs</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
     </div>
+
+    <script src="assets/scripts/scripts.js"></script>
 </body>
 
 </html>
