@@ -786,6 +786,17 @@ main .widgets-section .widget-wrapper .widget-title-group {
   }
 }
 
+@media screen and (max-width: 992px) {
+  .main .logo {
+    justify-content: center;
+  }
+
+  .main .header-right {
+    justify-content: center;
+    margin-top: 10px !important;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .main .logo {
     justify-content: center;
